@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style3.css">
+  </head>
+  <body>
+    <header>
+      <h1>To-Do List</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Add a new item</h2>
+        <form class="add-item">
+            
+          <label for="new-item">Item:</label>
+          <input type="text" id="new-item" name="new-item" placeholder="e.g. Go for a run">
+
+          <label for="new-item-date">Date:</label>
+          <input type="date" id="new-item-date" name="new-item-date" value="">
+
+          <label for="new-item-time">Time:</label>
+          <input type="time" id="new-item-time" name="new-item-time" value="">
+
+          
+          <input type="submit" id="new-item-time" name="new-item-time" value="add">
+
+          
+        </form>
+      </section>
+      <section>
+        <h2>To-Do List</h2>
+        <ul id="to-do-list">
+            <li>
+              
+              </li>
+             
+              </li>
+        </ul>
+        <button class="button" id="delete-btn" disabled>Delete Selected</button>
+      </section>
+    </main>
+    <footer>
+      <script src="app3.js"></script>
+    </footer>
+  </body>
+</html>
